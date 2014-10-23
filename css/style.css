@@ -31,7 +31,6 @@ a {
 }
 
 body {
-
      background-color: #d6d6d6; 
      font-family: sans-serif;
      overflow: auto;
@@ -69,6 +68,7 @@ span p{
 }
 
 #wrapper {
+     position: relative;
      min-height: 1700px;
      width:1700px;
      margin:0 auto 0 auto;
@@ -123,8 +123,11 @@ span p{
 
 
 #footer_img_holder {
-  clear: left;
-  width: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  width: 126px;
   height: 100px;
-  padding-left: 600px;
 }
