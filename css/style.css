@@ -12,19 +12,6 @@ Developer @GA in NYC
      box-sizing: border-box; /* IE */
 }
 
-/* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
-}
-
-.clear {
-	clear: both;
-}
 
 a {
      text-decoration: none;
@@ -34,7 +21,6 @@ body {
      background-color: #d6d6d6; 
      font-family: sans-serif;
      overflow: auto;
-     height:1700px;
 }
 
 h2 {
@@ -70,43 +56,36 @@ span p{
 #wrapper {
      position: relative;
      min-height: 1700px;
-     width:1700px;
-     margin:0 auto 0 auto;
+     margin:0;
 }
 
 #banner {
+     text-align: center;
      background-image:url('../images/background.jpg');
      background-repeat:repeat-x;
 }
 
 #banner img {
      position: relative;
-     right: -600px;
      top: 20px;
-
 }
 
+#content-wrapper {
+     padding: 0;
+}
 
 #main {
+     display: inline-block;
      width:640px;
      background-color: white;
-     position:relative;
-     float:left;
-     padding:15px;
-     margin-top:50px;
-     margin-left:200px;
-     margin-bottom:35px;
 }
 
 #sidebar {
+     display: inline-block;
      height:780px;
      width:310px;
      padding:0px;
      background-color: white;
-     position:relative;
-     float:left;
-     margin-top:50px;
-     margin-left: 20px;
      font-weight: bold;
 }
 
