@@ -111,11 +111,6 @@ span p{
 
 
 #footer_img_holder {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: 0 auto;
+  margin: 30px auto;
   width: 126px;
-  height: 100px;
 }
